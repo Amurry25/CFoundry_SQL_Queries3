@@ -22,4 +22,3 @@ ORDER BY total amount paid DESC
 LIMIT 5)
 SELECT AVG (sum amount)
 FROM average_paid_cte
-
