@@ -1,6 +1,6 @@
 -- Below is a SQL query with a common table expression (CTE).
 
-> WITH average_paid_cte (customer_id, first_name, last_name, country, city, sum_amount)
+WITH average_paid_cte (customer_id, first_name, last_name, country, city, sum_amount)
 (SELECT A.customer_ID, B.first_name, B.last_name,
         D.city, E. country,
 SUM (amount) AS total_amount_paid
