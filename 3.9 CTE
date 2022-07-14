@@ -88,3 +88,5 @@ SELECT country.country,
         COUNT (DISTINCT customer. customer_id) AS all_customer_count,
         COUNT (DISTINCT country.country) AS top_customer_count
 FROM top_5_cte
+
+
