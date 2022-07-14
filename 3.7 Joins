@@ -56,3 +56,5 @@ GROUP BY A.customer_ID, B.first_name, B.last_name,
 D.city, E.country
 ORDER BY highest_amount_paid DESC
 LIMIT 5;
+
+
