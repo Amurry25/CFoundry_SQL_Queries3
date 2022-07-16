@@ -55,5 +55,3 @@ LEFT JOIN country ON city.country_id=country.country_id
 GROUP by country.country
 ORDER BY all_customer_count DESC
 LIMIT 5
-
-
